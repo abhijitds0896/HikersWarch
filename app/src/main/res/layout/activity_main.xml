@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/bakground"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Hiker's Watch"
+        android:textColor="#121111"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/latTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:text="Latitude: "
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/longTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/latTextView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:text="Longitude: "
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/accTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/longTextView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Accuracy: "
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/altTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/accTextView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Altitude: "
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/adTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/altTextView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Address: \n 123 Fake Street \n Fake Town"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"/>
+</RelativeLayout>
